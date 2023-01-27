@@ -7,7 +7,7 @@ This README file is here to give you all the information you need to get started
 First things first,
 let's talk about what our project does 🤔
 
-Our project is  An image search engine using the Unsplash API allows users to search for and retrieve images from the Unsplash library. 
+My project is  An image search engine using the Unsplash API allows users to search for and retrieve images from the Unsplash library. 
 UNSPLASH API allows developers to access and use the images in their own applications, websites, or projects. 
 Users can search for images using keywords
 The API allows for the retrieval of information about the images, such as the photographer's name and the location the photo was taken. 
