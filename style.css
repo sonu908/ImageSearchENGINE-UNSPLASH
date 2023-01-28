@@ -14,7 +14,14 @@ body
 h1{
     font-family: 'Oswald', sans-serif;
 }
-
+.text-center .secondline{
+  color: rgb(255, 255, 255);
+  opacity: 50%;
+}
+ .headtwo
+{
+  margin-top: -2%;
+}
 body {
     padding: 0;
     margin: 0;
@@ -85,70 +92,6 @@ form:valid .fa{
     color: white;
     
 }
-
-
-a {
-  display: none;
-  position: absolute;
-  top: 70px;
-  bottom:0;
-  left: 0;
-  right: 0;
-  font-size: 20px;
-  color: white;
-  
-  text-align: center; 
-  width: 100%;
-}
-
-form:valid a {
-  display: block;
-}
-
-
-  @media only screen and (max-width: 1279px) {
-
-    .headone
-    {
-        padding-top: 10%;
-    }
-   
-  }
- 
-  @media only screen and (max-width: 951px) {
-
-    .headone
-    {
-        padding-top: 30%;
-    }
-   
-  }
-  @media only screen and (max-width: 768px) {
-
-    .headone
-    {
-        padding-top: 70%;
-    }
-   
-  }
-  @media only screen and (max-width: 471px) {
-
-    .headone
-    {
-        padding-top: 330px;
-    }
-   
-  }
-  @media only screen and (max-width: 376px) {
-
-    .headone
-    {
-        padding-top: 150%;
-    }
-   
-  }
-
-
 .containerr {
     height: 200px;
     position: relative;
@@ -169,24 +112,233 @@ form:valid a {
     
  }
 .photographer
-{ 
-    font-family: 'Oswald', sans-serif;
-    border-radius: 20px;
-    position: relative;
-    left: 30%;
-    width: 40%;
-    font-size: 13px;
-    background-color: rgb(0, 0, 0);
-    padding-bottom: .5%;
-    padding-top: .5%;
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  
 }
-.bgimg
-{ 
-    background-color: #ffffff  ;
-    width: 80%;
-    margin-left: 10%;
-    border-radius: 30px;
-   
+.imageresult
+{
+  padding: 15px;
 }
 
+
+ .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  grid-gap: 10px; /* Space between images */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Stack text below image */
+  align-items: center; /* Center text */
+}
+
+img {
+  width: 100%; /* Make image fill the container */
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 326px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+    color: black;
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ 
+ @media only screen and (max-width: 413px) {
+  .text-center .secondline
+  {
+    margin-top: 30%;
+    font-size: 15px;
+    color: black;
+    opacity: 50%;
+  }
+ 
+ }
+ @media only screen and (max-width: 423px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+    color: black;
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 40%;
+  }
+ }
+ @media only screen and (max-width: 976px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 40%;
+  }
+ }
+ @media only screen and (max-width: 1025px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+    
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 40%;
+  }
+ }
+ @media only screen and (max-width: 1323px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 40%;
+  }
+ }
+ @media only screen and (max-width: 283px) {
+  .text-center .secondline
+  {
+    margin-top:10%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 60%;
+  }
+ }
+ 
+ @media only screen and (max-width: 316px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ @media only screen and (max-width: 330px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ @media only screen and (max-width: 346px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ @media only screen and (max-width: 330px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ @media only screen and (max-width: 378px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 50%;
+  }
+ }
+ @media only screen and (max-width: 290px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 65%;
+  }
+ }
+ @media only screen and (max-width: 266px) {
+  .text-center .secondline
+  {
+    margin-top: 30%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 85%;
+  }
+ }
+ 
+ 
+ @media only screen and (max-width: 221px) {
+  .text-center .secondline
+  {
+    margin-top: 20%;
+    font-size: 8px;
+  
+    opacity: 100%;
+  }
+  .headtwo
+  {
+    margin-top: 98%;
+  }
+ }
+ 
+ 
+ 
+ 
 
